@@ -1,0 +1,23 @@
+[project]
+name = "mcp-course"
+version = "0.1.0"
+description = "MCP Course projects"
+requires-python = ">=3.10"
+dependencies = [
+    # From binance-mcp
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.6.0",
+    "pytest>=8.3.5",
+    # From llm-tool-use
+    "google-generativeai",
+    "python-dotenv",
+    "requests",
+    # Jupyter support
+    "ipykernel>=6.29.0",
+    "ipywidgets>=8.1.1",
+    "langchain-core",
+    "langchain-google-genai",
+]
+
+[tool.ruff]
+line-length = 79 
