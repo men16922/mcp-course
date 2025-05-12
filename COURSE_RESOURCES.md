@@ -82,5 +82,12 @@ This is just an example. Ensure that you replace the Python path and your `binan
   }
 }
 ```
+
+## MCP Clients and Debugging MCPs
+* [LangChain and LangGraph](https://www.langchain.com/)
+* [React Agents (optional reading)](https://react-lm.github.io/)
+* [LangChain MCP Adapter GitHub](https://github.com/langchain-ai/langchain-mcp-adapters)
+* [LangSmith](https://www.langchain.com/langsmith)
+
 ## The MCP Roadmap
 * [The official MCP Roadmap from Anthropic](https://modelcontextprotocol.io/development/roadmap)
