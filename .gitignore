@@ -1,1 +1,4 @@
 .env
+activity.log
+__pycache__
+/.cursor

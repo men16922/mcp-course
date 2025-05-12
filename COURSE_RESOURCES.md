@@ -74,9 +74,9 @@ This is just an example. Ensure that you replace the Python path and your `binan
       ]
     },
     "binance-mcp": {
-      "command": "C:/Users/zoltanctoth/Desktop/mcp-course/.venv/Scripts/python.exe",
+      "command": "/Users/zoltanctoth/src/mcp-course/.venv/bin/python",
       "args": [
-        "C:/Users/zoltanctoth/Desktop/mcp-course/binance_mcp/binance_mcp.py"
+        "/Users/zoltanctoth/src/mcp-course/binance_mcp/binance_mcp.py"
       ]
     }
   }
