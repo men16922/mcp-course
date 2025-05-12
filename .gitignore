@@ -2,3 +2,5 @@
 activity.log
 __pycache__
 /.cursor
+.env.mine
+/dev
