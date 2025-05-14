@@ -1,6 +1,7 @@
 .env
 activity.log
 __pycache__
-/.cursor
+/.cursor/*
 .env.mine
 /dev
+node_modules
