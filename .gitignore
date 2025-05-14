@@ -5,3 +5,4 @@ __pycache__
 .env.mine
 /dev
 node_modules
+*.tgz
