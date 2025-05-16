@@ -1,6 +1,10 @@
 .env
 activity.log
 __pycache__
-/.cursor
+/.cursor/*
 .env.mine
 /dev
+node_modules
+*.tgz
+typescript_mcp/dist/
+typescript_mcp/node_modules/
