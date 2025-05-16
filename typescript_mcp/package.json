@@ -1,12 +1,9 @@
 {
-  "name": "@zoltanctoth/binancemcp-ts",
-  "version": "1.1.5",
-  "description": "A simple MCP server demo",
-  "main": "dist/server.js",
+  "name": "zoltanctoth-binancemcp",
+  "version": "1.0.0",
+  "description": "MCP server that provides Binance price data",
+  "main": "dist/binance_mcp.js",
   "bin": "dist/binance_mcp.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
@@ -15,8 +12,8 @@
     "mcp",
     "modelcontextprotocol"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Nordquant",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
     "typescript": "^5.0.0"
