@@ -146,5 +146,52 @@ Access your MCP from the repository:
 * [LangChain MCP Adapter GitHub](https://github.com/langchain-ai/langchain-mcp-adapters)
 * [LangSmith](https://www.langchain.com/langsmith)
 
+## Production-ready MCPs on Cloudflare and MCP security
+* [Cloudflare's blog - #mcp tag](https://blog.cloudflare.com/tag/mcp/)
+* [Cloudflare's MCP Deep Dive](https://blog.cloudflare.com/remote-model-context-protocol-servers-mcp/)
+* [Cloudflare's Python MCP Repo](https://github.com/cloudflare/ai/tree/main/demos/python-workers-mcp)
+
+### Creating a publicly available MCP on Cloudflare
+
+You'll find there reference solution in the [ref_my-cloudflare-mcp-server-public](ref_my-cloudflare-mcp-server-public) folder.
+
+Here is the URL we use for the hard-coded crypto price response:
+```
+https://mcp-course.s3.eu-central-1.amazonaws.com/public/hard-coded-price.json
+```
+
+```
+# Create a template repo
+npm create cloudflare@latest -- my-cloudflare-mcp-server-public --template=cloudflare/ai/demos/remote-mcp-authless
+
+# Start it
+cd my-cloudflare-mcp-server-public
+np start
+
+# Log in to CloudFlare
+npx wrangler login
+
+# Deploy App
+npx wrangler deploy
+```
+
+### Adding GitHub OAuth Security
+* [Cloudflare's OAuth template apps](https://github.com/cloudflare/ai/tree/main/demos)
+
+The commands we execute:
+```
+npm create cloudflare@latest -- my-cloudflare-mcp-server-secure --template=cloudflare/ai/demos/remote-mcp-github-oauth
+cd my-cloudflare-mcp-server-secure
+
+npx wrangler secret put GITHUB_CLIENT_ID
+npx wrangler secret put GITHUB_CLIENT_SECRET
+npx wrangler secret put COOKIE_ENCRYPTION_KEY
+
+npx wrangler kv namespace create "OAUTH_KV"
+
+```
+
+
+
 ## The MCP Roadmap
 * [The official MCP Roadmap from Anthropic](https://modelcontextprotocol.io/development/roadmap)
