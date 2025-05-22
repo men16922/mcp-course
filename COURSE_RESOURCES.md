@@ -5,11 +5,13 @@
 * [Slides](https://docs.google.com/presentation/d/1d3PYBUqYntgh6YHOPk4Va61B-b0ok1pRZWoJzA9Venc/edit?usp=sharing)
 * [The Official MCP Homepage](https://modelcontextprotocol.io/)
 
-## Environment Setup
+## Environment Setup - Installation Guides
  * [Visual Studio Code](https://code.visualstudio.com/)
+ * [Node JS]([https://code.visualstudio.com/](https://nodejs.org/en/download))
+ * [Python]([https://code.visualstudio.com/](https://www.python.org/downloads/))
  * [Installing uv](https://docs.astral.sh/uv/getting-started/installation/)
 
-## Claude and Cursor
+### Claude and Cursor
  * [Claude Desktop Download](https://claude.ai/download)
  * [Cursor Download](https://www.cursor.com/)
 
