@@ -9,6 +9,7 @@
  * [Visual Studio Code](https://code.visualstudio.com/)
  * [Node JS]([https://code.visualstudio.com/](https://nodejs.org/en/download))
  * [Python]([https://code.visualstudio.com/](https://www.python.org/downloads/))
+   * **Install Python version 3.10 / 3.11 / 3.12 - Version 3.13 might not be fully supported yet by some of the libraries we cover**
  * [Installing uv](https://docs.astral.sh/uv/getting-started/installation/)
 
 ### Claude and Cursor
