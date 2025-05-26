@@ -28,9 +28,9 @@
       "command": "npx",
       "args": [
         "mcp-remote",
-        "https://actions.zapier.com/mcp/<<YOUR-TOKEN-COMES-HERE>>/sse"
+        "<<<Paste the Zapier URL from zapier.com here, something like https://mcp.zapier.com/api/mcp/a/11353467/sse?serverId=31de37b5-d96d-404e-bdd1-7fb38bb8fe73>>>"
       ]
-    },
+    }
   }
 }
 ```
