@@ -194,6 +194,41 @@ npx wrangler kv namespace create "OAUTH_KV"
 
 ```
 
+## Dockerizing MCPs
+
+### Docker Intro
+
+Here are the commands we executed:
+```
+docker build . -t hello
+docker container prune
+docker image ls
+docker image rm <<image id>>
+```
+
+### simple-binance-mcp
+Here are the commands we executed:
+```
+docker build . -t simple-binance-mcp
+docker image ls
+docker run simple-binance-mcp
+
+# Setting up GitHub access -------------------------------
+# Mac / Linux 
+export GITHUB_TOKEN="<<<your token>>>"
+# Windows PowerShell
+[Environment]::SetEnvironmentVariable("GITHUB_TOKEN", "your_token_here", "User")
+
+# Windows (cmd, not PowerShell)
+setx GITHUB_TOKEN "your_token_here"
+# --------------------------------------------------------
+
+docker buildx build --platform linux/amd64 -t simple-binance-mcp -t ghcr.io/zoltanctoth/simple-binance-mcp . --load
+
+docker push ghcr.io/zoltanctoth/simple-binance-mcp
+```
+
+
 
 
 ## The MCP Roadmap
