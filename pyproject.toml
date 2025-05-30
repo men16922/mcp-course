@@ -34,9 +34,9 @@ dev = [
 ]
 
 smolagents = [
-    "torch",
     "smolagents[mcp]",
     "transformers",
+    "mcpadapt",
 ]
 
 openai = [

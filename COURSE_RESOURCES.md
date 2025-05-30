@@ -228,7 +228,19 @@ docker buildx build --platform linux/amd64 -t simple-binance-mcp -t ghcr.io/zolt
 docker push ghcr.io/zoltanctoth/simple-binance-mcp
 ```
 
+## Guillaume Raille - MCPAdapt / Huggingface Smolagents MCP & Real-World MCP Lessons Learned
 
+About Guillaume:
+   * [LinkedIn](https://www.linkedin.com/in/guillaumeraille/)
+   * [SubstantAI](https://www.substant.ai/)
+   * [MCPAdapt](https://github.com/grll/mcpadapt)
+   
+Links to Technologies / Articles / Concepts Guillaume mentions:
+   * [Building Effectiv Agents (by Anthropic)](https://www.anthropic.com/engineering/building-effective-agents)
+   * [zed Editor](https://zed.dev/)
+   * [Cursor Rules](https://docs.cursor.com/context/rules)
+   * [uvx](https://docs.astral.sh/uv/guides/tools/)
+   * [Open MCP Proxy](https://github.com/grll/open-mcp-proxy)
 
 
 ## The MCP Roadmap
