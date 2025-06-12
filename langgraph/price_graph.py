@@ -25,6 +25,12 @@ mcp_config = {
         "args": [MCP_PATH],
         "transport": "stdio",
     }
+    # # npx NCP exmaple
+    # ,"shopify": {
+    #     "command": "npx",
+    #     "args": ["-y", "@shopify/dev-mcp@latest"],
+    #     "transport": "stdio",
+    # },
 }
 
 
