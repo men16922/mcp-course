@@ -1,4 +1,3 @@
-.env
 activity.log
 __pycache__
 /.cursor/*
@@ -11,3 +10,5 @@ typescript_mcp/node_modules/
 # Courseware dev
 /dev
 /.archive
+
+.idea
